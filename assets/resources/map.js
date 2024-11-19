@@ -9,7 +9,6 @@ function closePopups() {
 }
 
 map.addEventListener('click', function (event) {
-    console.log(event.target);
     if (!event.target.parentNode.parentNode.classList.contains('circle__hover') && !event.target.parentNode.classList.contains('circle__hover') && !event.target.classList.contains('circle__hover')) {
         closePopups();
     }
